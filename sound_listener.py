@@ -14,7 +14,7 @@ print("Listening to ESP32...")
 
 while True:
     message = ser.readline().decode("utf-8", errors="ignore").strip()
-
+j
     print(message)
 
     if message == "RED":
